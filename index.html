@@ -49,7 +49,7 @@
                 </li>
             </ul>
 
-            <button type="button" class="btn btn-warning">Warning</button>Dark Mode</button>
+            <button id="darkBtn" class="btn btn-outline-dark">Dark Mode</button>
         </div>
     </div>
 </nav>
@@ -109,9 +109,9 @@
         <h2 class="text-center mb-4">Featured Projects</h2>
 
         <div class="text-center mb-4">
-            <button class="btn btn-primary mb-4">All</button>
-            <button class="btn btn-secondary mb-4">Living Room</button>
-            <button class="btn btn-success mb-4">Bedroom</button>
+            <button class="btn btn-primary mb-4 filter-btn" data-filter="all">All</button>
+            <button class="btn btn-secondary mb-4 filter-btn" data-filter="living">Living Room</button>
+            <button class="btn btn-success mb-4 filter-btn" data-filter="bedroom">Bedroom</button>
         </div>
         <div class="row g-4">
             <div class="col-md-4 project-item living">
@@ -237,5 +237,11 @@
 <footer class="bg-dark text-white text-center py-3">
     <p>&copy; 2026 MyKatalog Studio Interior. All rights reserved.</p>
 </footer>
+
+<!-- Bootstrap JS Bundle -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Custom JS -->
+<script src="script.js"></script>
+
 </body>
 </html>
