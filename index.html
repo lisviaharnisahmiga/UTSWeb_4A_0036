@@ -5,33 +5,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MyKatalog Studio Interior</title>
 
-    // Bootstrap 
+    <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" 
     rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 
-    // css
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    // navbar
-    <nav class="navbar navbar-expand-lg bg-white shadow-sm fixed-top">
-        <div class="container">
-          <a class="navbar-brand" href="#">MyKatalog Studio Interior</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
-          data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg bg-white shadow-sm fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="#">MyKatalog Studio Interior</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-          </button>
-          
-        </div>
-      </nav>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Collection</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Testimonials</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
 
-      // hero section
-      <section class="hero-section d-flex align-items-center justify-content-center text-center">
-        <div class="container">
-          <h1>Welcome to MyKatalog Studio Interior</h1>
-          <p>Your dream interior design starts here.</p>
-          <a href="#" class="btn btn-primary">Explore Our Services</a>
+            <button id="darkBtn" class="btn btn-warning ms-3">Dark Mode</button>
         </div>
-      </section>
+    </div>
+</nav>
+<!-- Hero Section -->
+ 
 </body>
 </html>
