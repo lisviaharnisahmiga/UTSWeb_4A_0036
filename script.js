@@ -1,3 +1,15 @@
+function filterProjects(type) {
+    const projectItems = document.querySelectorAll('.project-item');
+    
+    projectItems.forEach(item => {
+        if (type === 'all' || item.dataset.type === type) {
+            item.style.display = 'block';
+        } else {
+            item.style.display = 'none';
+        }
+    });
+}
+
 const contactForm = document.getElementById('contactForm');
 
 contactForm.addEventListener('submit', function(event) {
