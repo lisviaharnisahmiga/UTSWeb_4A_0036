@@ -55,7 +55,7 @@ body {
     background-color: #b58a4c;
 }
 
-.services-card {
+.service-card {
     border: none;
     border-radius: 20px;
     padding: 20px;
@@ -63,7 +63,7 @@ body {
     transition: 0.3s;
 }
 
-.services-card:hover {
+.service-card:hover {
     transform: translateY(-5px);
 }
 
@@ -100,7 +100,7 @@ body {
     text-align: center;
 }
 
-#tetimonials p {
+#testimonials p {
     font-style: italic;
     color: #666;
 }
@@ -117,44 +117,4 @@ body {
 
 footer {
     margin-top: 30px;
-}
-
-.dark-mode {
-    background-color: #1e1e1e;
-    color: white;
-}
-
-.dark-mode .navbar {
-    background-color: #2a2a2a !important;
-}
-
-.dark-mode .nav-link {
-    color: #ccc !important;
-}
-
-.dark-mode .navbar-brand {
-    color: white;
-}
-
-.dark-mode .hero-section {
-    background-color: #1e1e1e;
-}
-
-.dark-mode .hero-section p {
-    color: #ccc;
-}
-
-.dark-mode .card {
-    background-color: #2a2a2a;
-    color: white;
-}
-
-.dark-mode .form-control{
-    background-color: #2a2a2a;
-    color: white;
-    border: 1px solid #555;
-}
-
-.dark-mode footer {
-    background-color: black !important;
 }
